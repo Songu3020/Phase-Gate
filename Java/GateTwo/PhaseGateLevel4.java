@@ -1,3 +1,5 @@
+public class PhaseGateLevel4Test {
+
 public static boolean isEven(int number) {
     return number % 2 == 0;
 }
@@ -26,3 +28,4 @@ public static int largest(int num1, int num2, int num3) {
 public static double simpleInterest(double principal, double rate, double time) {
     return (principal * rate * time) / 100;
 }
+    }

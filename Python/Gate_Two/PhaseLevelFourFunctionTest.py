@@ -4,12 +4,16 @@ import phase
 class PhaseLevelFourFunction(TestCase):
 
     def test_for(self):
+        actual = phase.add_numbers(2, 2)
+        expected = 4
+        self.assertEqual(expected, actual)
 
-        actual = phase_level4_function.add_numbers()
+    def test_for_even_numbers(self):
+        actual = phase.add_numbers(4, 2)
+        expected = 6
+        self.assertEqual(expected, actual)
 
-        expected = add_numbers(num1, num2)
-        return num1 + num2
-
-        self.assertEqual(expected,actual)
-    
-
+    def test_for_square(self):
+        actual = phase.add_square(5)
+        expected = 25
+        self.assertEqual(expected, actual)

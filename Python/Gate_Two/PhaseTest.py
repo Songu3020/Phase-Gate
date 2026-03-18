@@ -19,5 +19,9 @@ class PhaseLevelFourFunction(TestCase):
 
         self.assertEqual(expected,actual)
 
-   
+    def test_for_square(self):
+
+        actual = phase.add_square(5)
+        expected = 5 * 5
+        self.assertEqual(expected,actual)
 
