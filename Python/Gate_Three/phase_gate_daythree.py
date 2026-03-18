@@ -1,19 +1,13 @@
-def compress_string(size):
-    result = ""
+    def compress_string(text):
+    result = []
     count = 1
-    
-    for number in range(1,len(size)):
-        if size[number == size(number + 1)]:
+
+    for index in range(len(text)):
+        if index < len(text) - 1 and text[index] == text[index + 1]:
             count += 1
-    else:
-        result += size[number -1] + str(count)
-    count =1
-    result += size[-1]+str(count)
-    return result
-    
-    print(compressString("A1a2B2c1"))
-    print(compressString("EEEEnnnneee"))
-    print(compressString("ooooooYoo"))
+        else:
+            result.append(text[index] + str(count))
+            count = 1
 
 
 
