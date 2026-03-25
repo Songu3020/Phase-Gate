@@ -19,11 +19,11 @@ public class ParkingSlotTest{
     @Test
     public void testCarParkAutomatically(){
 
-        int[]parkingSlots = new int[]{0,2,0};
+        int[]parkingSlots = new int[20];
 
-        String actual = ParkingSlot.carParkAutomatically(parkingSlots);
+        String actual = ParkingSlot.parkCarAutomatically(parkingSlots);
 
-        String expected = ("Car parked at slot 1");
+        String expected = "Car parked at slot 1";
 
         assertEquals(expected, actual);
         }

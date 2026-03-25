@@ -1,4 +1,4 @@
-import java.security.SecureRandon;
+import java.security.SecureRandom;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class PhaseGateTaskSix {
     }
 }
    
-for(int count = 10; count == 10; count++){
+for(int count = 1; count <= 10; count++){
 
     for(int index = 1; index <= 10; index++){
 
@@ -37,7 +37,7 @@ for(int count = 10; count == 10; count++){
         if(value > 2){  
               
     System.out.print("You have two chances letf:");
-        }
+                     }
                 }
             }
       }        
