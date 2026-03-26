@@ -14,49 +14,59 @@ import java.util.Random;
     
 }
 
-//    public static boolean NumberIsInRange(int number) {
-//
-//        if (number >= 1 && number <= 100) {
-//
-//            return true;
-//
-//        } else {
-//
-//            return false;
-//        }
-//    }
-//
-//    
-//    public static String checkGuess(int guess, int correctNumber) {
-//
-//        if (guess == correctNumber) {
-//
-//            return "CORRECT";
-//
-//        } else if (guess < correctNumber) {
-//
-//            return "LOW";
-//
-//        } else {
-//
-//            return "HIGH";
-//        }
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//}
+    
+public static boolean CheckIsNumber(){
+    try{
+    Interger.parseInt(input)
+    return true;
+    }else{
+    return false;
+    }            
+        
+}  
+    public static boolean NumberIsInRange(int number) {
+
+        if (number >= 1 && number <= 100) {
+
+            return true;
+
+        } else {
+
+            return false;
+        }
+    }
+
+    
+    public static String checkGuess(int guess, int correctNumber) {
+
+        if (guess == correctNumber) {
+
+            return "CORRECT";
+
+        } else if (guess < correctNumber) {
+
+            return "LOW";
+
+        } else {
+
+            return "HIGH";
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
