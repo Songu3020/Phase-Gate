@@ -17,9 +17,9 @@ import java.util.Random;
     
 public static boolean CheckIsNumber(){
     try{
-    Interger.parseInt(input)
+    Integer.parseInt(input)
     return true;
-    }else{
+    }catch(NumberFormatException){
     return false;
     }            
         
@@ -51,22 +51,6 @@ public static boolean CheckIsNumber(){
 
             return "HIGH";
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

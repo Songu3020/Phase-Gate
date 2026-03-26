@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Requirement {
+public class Contacts {
 
     public static void main(String[]args){
 
@@ -28,10 +28,12 @@ System.out.println(phoneMenu);
 
 System.out.println("You have options 1 - 7 only: ");
     int options = input.nextInt();
+    input.nextLine();
 
-Switch(Options){
+switch(options) {
         
-            Case 1-> {
+            case 1-> {
+
         System.out.println("Enter your Name: ");
         String firstName = input.nextLine();
 
